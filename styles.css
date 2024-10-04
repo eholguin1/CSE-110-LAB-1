@@ -2,14 +2,14 @@
         background-color: rgb(245,240,230);
         display: inline-block;
         width: 100%;
-        scroll-margin-top: 46.1px;
+        scroll-margin-top: 152.5px;
 }
 .div-2{
         background-image: url('https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg');
         display: inline-block;
         width: 100%;
         color: white;
-        scroll-margin-top: 46.1px;
+        scroll-margin-top: 152.5px;
 }
 li{
         overflow: hidden;
@@ -43,7 +43,7 @@ ul{
         background-color: rgb(245,240,230);
         display: inline-block;
         width: 100%;
-        scroll-margin-top: 46.1px;
+        scroll-margin-top: 152.5px;
 }
 .wrapper {
         display: grid;
@@ -83,6 +83,57 @@ ul{
         overflow: scroll;
         max-height: 500px;
         color: white;
+}
+@media (max-width:799px){
+        ul{
+                display: none
+        }
+        .logo{
+                max-width: 75%;
+        }
+        h2{
+                font-size: 24;
+        }
+        p{
+                font-szie: 20;
+        }
+        .wrapper{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+        }
+        .one{
+                grid-column: 1;
+                grid-row: 1;
+                background-color: #182b49;
+                max-height: 500;
+                overflow: scroll;
+                color: #ffffff;
+        }
+        .two{
+                grid-column: 2;
+                grid-row: 1;
+                background-color: #182b49;
+                max-height: 500;
+                overflow: scroll;
+                color: #ffffff;
+        }
+        .three{
+                grid-column: 1;
+                grid-row: 2;
+                background-color: #182b49;
+                max-height: 500;
+                overflow: scroll;
+                color: #ffffff;
+        }
+        .four{
+                grid-column: 2;
+                grid-row: 2;
+                background-color: #182b49;
+                max-height: 500;
+                overflow: scroll;
+                color: #ffffff;
+        }
 }
 
 
